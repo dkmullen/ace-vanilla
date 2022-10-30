@@ -1,0 +1,36 @@
+#main-logo {
+  width: 400px;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.nav-container {
+  height: 170px;
+  position: relative;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+nav a,
+nav a:visited {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+nav a:hover {
+  color: var(--primary);
+}
+hr {
+  color: var(--primary);
+  opacity: 0.3;
+}
+header {
+  margin-bottom: 1.5rem;
+}
